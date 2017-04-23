@@ -13,3 +13,6 @@ while True:
     clientSocket.sendall(message.encode('utf-8'))
     response = clientSocket.recv(1024)
     print(response)
+    if message == '#':
+        print("You have closed the connection.")
+        break
