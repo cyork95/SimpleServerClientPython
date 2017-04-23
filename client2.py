@@ -1,7 +1,7 @@
 from socket import *
 
 
-serverName = '10.4.82.254'
+#serverName = '10.4.82.254'
 
 serverName = '127.0.0.1'
 serverPort = 12000

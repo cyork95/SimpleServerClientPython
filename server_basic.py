@@ -17,6 +17,10 @@ while True:
             print("Client ", connectionSocket.getpeername(), "closed connection.")
             connectionSocket.close()
             break
+        elif message == '#':
+            print("Client ", connectionSocket.getpeername(), "closed connection.")
+            connectionSocket.close()
+            break
         else:
             print(message)
             connectionSocket.sendall(message.upper())
