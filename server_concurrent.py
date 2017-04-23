@@ -29,6 +29,6 @@ while True:
             else:
                 print (message)
                 s.sendall(message.upper())
-#                s.close()
-#                rlist.remove(s)
+                s.close()
+                rlist.remove(s)
 
